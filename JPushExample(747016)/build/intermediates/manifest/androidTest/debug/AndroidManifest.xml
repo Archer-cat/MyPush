@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="graduate.qk.com.lefthelper.test">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="graduate.qk.com.lefthelper"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for graduate.qk.com.lefthelper"/>
+</manifest>
